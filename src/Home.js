@@ -44,7 +44,7 @@ export default function Home() {
           <h3>Book driver from most popular platform...</h3>
           <br />
           <Stack direction="row" spacing={2}>
-            <Button variant="contained" endIcon={<SendIcon />} onClick={()=> navigate("/driver")}>
+            <Button variant="contained" endIcon={<SendIcon />} onClick={()=> navigate("/login")}>
               Book a driver
             </Button>
           </Stack>

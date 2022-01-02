@@ -20,7 +20,10 @@ function Driver() {
   return (
     <div>
       <Navbar />
-      <Box sx={{ flexGrow: 1 }}>
+      <Box 
+      // sx={{ flexGrow: 1 }}
+      sx={{ justifyContent: 'space-evenly' ,flexGrow: 1}}
+      >
         <Container sx={{ mt: 5 }} style={{
           marginTop: "80px",
           maxWidth: "1100px"
